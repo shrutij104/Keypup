@@ -22,7 +22,7 @@
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/AtharvaBhore/Keypup.git
+   git clone https://github.com/shrutij104/Keypup.git
    cd Keypup
    ```
 
