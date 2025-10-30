@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply transition-colors duration-1000;
+	}
+}
+
+.correct {
+	@apply text-stone-800 dark:text-neutral-100 !important;
+}
+
+.wrong {
+	@apply text-red-500 underline !important;
+}
+
+.semiWrong {
+	@apply underline decoration-red-500 !important;
+}
+.blink {
+	animation: blink-animation 0.5s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+	50% {
+		opacity: 0;
+	}
+}
